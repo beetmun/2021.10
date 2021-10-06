@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    background-color:rgb(29, 29, 29);
+    border-bottom: solid 1px #666;
+    display: flex;
+    align-items: center;
+}
+.header .logo{
+    height: 40px;
+    width: 280px;
+    margin-left: 1rem;
+}
+.header .logo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 300px; 
+    height: 180px;
+    border: #444343 solid 2px;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .ner{
+    
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    font-family:Roboto, sans-serif;
+    font-size: 8px;
+    transition: 0.5s;
+    
+}
+.box:hover .ner{
+    color: #00b3ff;
+
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    
+}
+.tsaashbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    width: 89%;
+    height: 50px;
+    background-color:hsl(0, 0%, 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.box1 .tsaash{
+    color: grey;
+    font-family: roboto;
+    font-size: 10px;
+}
+.box1:hover .box1{
+    background-color:#00b3ff ;
+    color: hotpink;
+}
+.box1:hover .tsaash{
+    color: white;
+}
+.zuragmiddle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.middle {
+    width: 900px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+.middle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body {
+    background-color: #1d1d1d;
+}
+.duussanbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.duussan .box2{
+    width: 200px;
+    height: 260px;
+    border: grey solid 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.duussan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+.duussan .ner2{
+    font-size: 8px;
+    font-family: roboto;
+    color:#00b3ff ;
+    position: absolute;
+    bottom: 0%;
+    top: 60%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .6);
+    transition: .5s;
+
+}
+.box2:hover .ner2{
+    opacity: 1;
+
+}
+.duussan{
+    width:90%;
+    display: flex;
+    gap: 25px;
+    margin: 1rem;
+    border: 3px solid black;
+}
+.duussan-ner{
+    font-family: roboto;
+    font-size: 20px;
+    color: grey;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
